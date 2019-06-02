@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+        <item name="buttonStyle">@style/botonUno</item><!-- para todos los botones -->
+    </style>
+
+    <style name="MegaTexto" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/raleway_black</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/MegaTexto</item>
+    </style>
+    <style name="TituloItem" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/raleway_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="botonUno" parent="android:Widget.Button">
+        <item name="android:textColor">@color/botonTexto</item>
+        <item name="android:background">@color/botonFondo</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:fontFamily">@font/raleway_bold</item>
+    </style>
+
+    <style name="textoVinculo" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
